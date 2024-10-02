@@ -1,0 +1,3 @@
+SELECT COUNT(*) AS products_count
+FROM `hw_3`.`products`
+WHERE price >= 20 AND price <= 100;
